@@ -1,5 +1,7 @@
 body {
-    margin: 0;
-    background: lightskyblue;
+    font-family: Helvetica;
+    margin: 50px;
+    line-height: 50px;
+    background: white;
     text-align: center;
 }
