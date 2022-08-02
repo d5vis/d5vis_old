@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 40;
+    color: black;
+    opacity: 0;
+    transform: translateY(275%);
+}
+
+h2 {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 25;
+    color: black;
+    transform: translateY(-75%)
+}
+
+.middle {
+    /* position: relative;
+    top: 50%;
+    transform: translateY(50%); */
+}
+
+@keyframes fadeinout {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    70% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fade {
+    animation: fadeinout 7s;
+}
+
+.fadein {
+    opacity: 0;
+    animation: fadein 10s;
+    animation-delay: 0s;
+}
+
