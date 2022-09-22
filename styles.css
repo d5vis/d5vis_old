@@ -1,7 +1,25 @@
+html,
 body {
-    font-family: Helvetica;
-    margin: 50px;
-    line-height: 25px;
-    background: rgb(174, 207, 238);
-    text-align: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+p {
+  margin: 10px;
+}
+
+img {
+  opacity: 80%;
 }
